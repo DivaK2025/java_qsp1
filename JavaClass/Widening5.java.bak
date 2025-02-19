@@ -1,0 +1,12 @@
+class Widening5
+{
+	public static void main(String[] args) 
+	{	
+		
+		float f = 'D';
+		System.out.println(f);
+
+		double d = 'R';
+		System.out.println(d);
+	}
+}

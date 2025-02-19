@@ -1,0 +1,20 @@
+class NoChangePtr {
+    
+    public static void main(String[] args) {  // This is the entry point of your program
+        int i, j;
+        int n = 4;
+        int num = 1;
+        
+        // Outer loop for the rows
+        for (i = 1; i <= n; i++) {
+            
+            // Inner loop for the numbers in each row
+            for (j = 1; j <= i; j++) {
+                System.out.print(num + " "); // Print the current number
+                num++;  // Increment the number for the next print
+            }
+
+            System.out.println();  // Move to the next line after each row
+        }
+    }
+}

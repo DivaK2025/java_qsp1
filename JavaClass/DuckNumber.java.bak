@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class DuckNumber {
+    public static void main(String[] args) {
+        // Create scanner object to take input
+        Scanner sc = new Scanner(System.in);
+        String numStr = Integer.toString(number);
+
+		 if (numStr.charAt(0) == '0') {
+            return false; // Not a Duck number if it starts with 0
+        }
+
+       for (int i = 1; i < numStr.length(); i++) {
+            if (numStr.charAt(i) == '0') {
+                return true; // It's a Duck number if there is a zero in the middle or end
+            }
+        }
+            return false;
+	}
+
+        System.out.println("Enter a number to check if it's a Duck number:");
+        int num = sc.nextInt();
+        
+        if (isDuckNumber(num)) 
+            System.out.println(num + " is a Duck number.");
+         else 
+            System.out.println(num + " is not a Duck number.");
+        
+        
+    }
+}
