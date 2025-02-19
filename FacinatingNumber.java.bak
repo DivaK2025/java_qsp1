@@ -12,7 +12,7 @@ class FacinatingNumber
 			//fetch char from string one by one from index 0.
 			for(int j=0;j<ste.length();j++)
 			{
-				char ch = =str.charAt(j); /// char fetched is stored in var ch
+				char ch = =str.charAt(j); // char fetched is stored in var ch
 				if(ch==i) // if i char matches with ch char if executes
 				cnt++; //increases the count if cnd satisfy
 			}
