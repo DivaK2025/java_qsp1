@@ -22,9 +22,6 @@ class EvilNo
 				System.out.println(num+ " is not a evil number");
 
 			}
-				
-
-
 
 	}
 }

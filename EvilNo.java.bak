@@ -9,7 +9,7 @@ class EvilNo
 		int cnt = 0;
 		String binary = Integer.toBinaryString(num);
 
-		for(int i =0; i< binary.lenth(); i++){
+		for(int i =0; i< binary.length(); i++){
 			if(binary.charAt(i) == '1'){
 				cnt++;
 			}
